@@ -3,7 +3,8 @@ import { LogProvider, useLog } from "@/lib/log-context";
 import { AppShell } from "@/components/app-shell";
 import { GeneratorSection } from "@/components/sections/generator";
 import { InspectorSection } from "@/components/sections/inspector";
-import { InsightsSection, UseCasesSection } from "@/components/sections/coming-soon";
+import { InsightsSection } from "@/components/sections/insights";
+import { UseCasesSection } from "@/components/sections/use-cases";
 
 export const Route = createFileRoute("/")({
   head: () => ({
