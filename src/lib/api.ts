@@ -1,6 +1,6 @@
 import { rowsToCsv, type EventRow } from "./generate-log";
 
-export const API_BASE = "http://localhost:8000/api/v1";
+export const API_BASE = "https://api.eldoreth.com/api/v1";
 
 export function eventLogToCsvFile(rows: EventRow[], name = "log.csv"): File {
   const csv = rowsToCsv(rows);
